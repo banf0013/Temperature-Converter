@@ -73,8 +73,8 @@ public class MainActivity extends Activity implements Observer {
 		seekBarKelvin.setHasMax( false );
 		seekBarKelvin.setMaxValue( TemperatureModel.MAX_KELVIN );
 		seekBarKelvin.setMinValue( TemperatureModel.MIN_KELVIN );
-		seekBarKelvin.setMinTitle( getResources().getString(R.string.kelvin) );
-		seekBarKelvin.setUnits( getResources().getString(R.string.units) );
+		//seekBarKelvin.setMinTitle( getResources().getString(R.string.kelvin) );
+		seekBarKelvin.setUnits( getResources().getString(R.string.kelvin) );
 
 
 		// register an anonymous inner class as the event handler
